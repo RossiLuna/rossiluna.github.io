@@ -1,0 +1,17 @@
+color: #c7fffc
+color2: #ffe9c7
+fuente:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap" rel="stylesheet">
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+</style>
+
+font-family: 'Agdasima', sans-serif;
+
+font-family: 'Aref Ruqaa Ink', serif;
+
+

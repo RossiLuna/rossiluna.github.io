@@ -17,7 +17,7 @@ function estableceNombreUsuario() {
         estableceNombreUsuario();
     } else {
         localStorage.setItem('nombre', miNombre);
-        miTitulo.innerHTML = 'Fundamentos básicos de la nanotecnología. \n Hola, ' + miNombre;
+        miTitulo.innerHTML = 'Conceptos básicos de la nanotecnología. \n Hola, ' + miNombre;
     }
 }
 if (!localStorage.getItem('nombre')) {
@@ -25,7 +25,7 @@ if (!localStorage.getItem('nombre')) {
 }
 else {
     let nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Fundamentos básicos de la nanotecnología. \n Hola, ' + nombreAlmacenado;
+    miTitulo.textContent = 'Conceptos básicos de la nanotecnología. \n Hola, ' + nombreAlmacenado;
 }
 miBoton.onclick = function () {
     estableceNombreUsuario();

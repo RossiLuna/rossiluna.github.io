@@ -68,3 +68,14 @@ img {
    position: relative;
    top: 1px;
 }
+
+.pie_pagina {
+   background-color: black;
+   color: white;
+   width: 100px 600px;
+
+}
+.credito {
+   text-decoration: solid red;
+   color: white;
+}
